@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_phoenix.mk
+    $(LOCAL_DIR)/yaap_phoenix.mk
