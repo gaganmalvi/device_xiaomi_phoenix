@@ -123,7 +123,6 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
     libgui_vendor \
     libxml2 \
-    GCamGOPrebuilt \
     vendor.qti.hardware.camera.device@1.0.vendor \
     android.hidl.memory.block@1.0.vendor \
     libstdc++.vendor
@@ -145,9 +144,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/parts/privapp-permissions-parts.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-parts.xml
-
-# Dex
-PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 
 # Display/Graphics
 PRODUCT_PACKAGES += \
